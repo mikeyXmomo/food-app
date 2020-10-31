@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import 'twin.macro';
+import Image from 'next/image'
 
 export default function Nav({isOpen, setToggle}) {
 	return (
 		<nav tw="bg-fixed bg-white inset-0 flex justify-center">
 			<div tw="w-4/5 flex justify-between items-center my-4 ">
 				<div tw="sm:block">
-					<img tw="md:w-2/3 w-1/2 cursor-pointer" src="/logo.png" />
+					<Image unsized="true" tw="md:w-2/3 w-1/2 cursor-pointer" src="/logo.png" />
 				</div>
 				<button tw="sm:hidden" onClick={setToggle}>
 					<svg tw="w-8 h-8 text-gray-999" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

@@ -1,11 +1,12 @@
 import 'twin.macro';
+import Image from 'next/image'
 
 const Footer = () => {
 	return (
 		<footer tw="w-full h-40 inset-0 flex justify-center items-center bg-white">
 			<div tw="w-4/5 flex flex-col md:flex-row justify-around">
 				<div>
-					<img tw="hidden md:block w-2/3 cursor-pointer" src="/logo.png" />
+					<Image unsized="true" tw="hidden md:block w-2/3 cursor-pointer" src="/logo.png" />
 				</div>
 				<div tw="flex flex-row justify-center items-center mx-4 my-4 md:my-0">
 					<svg role="img" tw="fill-current text-orange-999 w-6 h-6 mx-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -10,9 +10,9 @@
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
-    "next": "^9.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "twin.macro": "^1.11.0"
   },
   "babelMacros": {
